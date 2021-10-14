@@ -1,10 +1,9 @@
-
 import requests
 import os
 from lxml import etree
 
-if not os.path.exists('./豆瓣电影Top250图片'):
-        os.mkdir('./豆瓣电影Top250图片')
+if not os.path.exists('./images'):
+        os.mkdir('./images')
 
 i = 0
 page = 0
@@ -25,13 +24,13 @@ while i < 11:
 
         img_data = requests.get(url=img_src,headers=headers).content
         img_title = img_num + '.' + img_name + '.jpg'
-        img_path = './豆瓣电影Top250图片/' + img_title
+        img_path = './images/' + img_title
         with open(img_path,'wb') as dy_img:
             dy_img.write(img_data)
-            print(img_title,' 保存成功！')
+            print(img_title,' Finished！')
     
     page = (i + 1)*25
     i += 1
 
-print('\n豆瓣电影Top250图片全部下载完成！')
+print('\nDownload Complete!!')
 
