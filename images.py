@@ -32,5 +32,6 @@ while i < 11:
     page = (i + 1)*25
     i += 1
 
-print('\nDownload Complete!!')
+print('\n')
+print('All download completed!!')
 
