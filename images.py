@@ -27,7 +27,7 @@ while i < 11:
         img_path = './images/' + img_title
         with open(img_path,'wb') as dy_img:
             dy_img.write(img_data)
-            print(img_title,' Finished！')
+            print(img_title,' Finished!')
     
     page = (i + 1)*25
     i += 1
