@@ -5,6 +5,6 @@
 > 
 > 再安装对应Python版本的 `lxml` 
 
-```bash
+```python
 pip install "完整包名"
 ```
