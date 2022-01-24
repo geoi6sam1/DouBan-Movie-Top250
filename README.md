@@ -1,5 +1,5 @@
 # 豆瓣电影Top250
-* ** 关于 [`lxml`](https://pypi.org/project/lxml/#files) 库的安装 **
+* **关于[`lxml`](https://pypi.org/project/lxml/#files)库的安装**
 
 > 需要先安装 `wheel` 
 > 
