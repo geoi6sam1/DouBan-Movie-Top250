@@ -1,6 +1,6 @@
 # 🌈豆瓣电影Top250
 
-* **关于 [`python3`](https://www.python.org/downloads) 软件的安装**
+* **如何 [`python3`](https://www.python.org/downloads) 软件？**
 
 > **上网一查，你就知道**
 
