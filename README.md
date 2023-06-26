@@ -17,5 +17,5 @@ python setup.py install
 > **按顺序安装 [`wheel`](https://pypi.org/project/wheel/#files) 和 [`lxml`](https://pypi.org/project/lxml/#files) 库即可**
 
 ```python
-pip install "完整包名"
+pip install 完整包名
 ```
