@@ -2,13 +2,19 @@
 
 * **关于 [`python3`](https://www.python.org/downloads) 软件的安装**
 
-* **关于 [`setuptools`](https://pypi.org/project/setuptools/#files) 库的安装**
+> **上网一查，你就知道**
 
-* **关于 [`pip`](https://pypi.org/project/pip/#files) 库的安装**
+* **如何使用pip3？**
 
-* **关于 [`wheel`](https://pypi.org/project/wheel/#files) 库的安装**
+> **按顺序安装 [`setuptools`](https://pypi.org/project/setuptools/#files) [`pip`](https://pypi.org/project/pip/#files) 库即可**
 
-* **关于 [`lxml`](https://pypi.org/project/lxml/#files) 库的安装**
+```python
+python setup.py install
+```
+
+* **index.py运行不了？**
+
+> **按顺序安装 [`wheel`](https://pypi.org/project/wheel/#files) [`lxml`](https://pypi.org/project/lxml/#files) 库即可**
 
 ```python
 pip install "完整包名"
